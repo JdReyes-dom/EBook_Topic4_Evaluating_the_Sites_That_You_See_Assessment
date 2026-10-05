@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ------------------------------------------------------------------
      🔽 CHANGE THESE TWO LINES PER TOPIC 🔽
   ------------------------------------------------------------------ */
-  const QUIZ_TOPIC_NUMBER = 'Topic 8';
-  const QUIZ_TOPIC_VALUE  = 'A Place for Every File';
+  const QUIZ_TOPIC_NUMBER = 'Topic 4';
+  const QUIZ_TOPIC_VALUE  = 'Evaluating the Sites That You See';
 
   let currentQuestion = 0;
   let isTransitioning = false;

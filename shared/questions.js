@@ -1,138 +1,146 @@
 /* ==========================================================================
    FRS GENERAL KNOWLEDGE QUIZ — QUESTION BANK
-   Digital Values | 10 Questions
+   Digital Values | 10 Questions | Topic 4: Evaluating the Sites That You See
+   Layout: 2 Identification · 2 Application · 3 Comprehension · 3 Analysis
    ========================================================================== */
 
 const QUIZ_QUESTIONS = [
+  /* ---------- IDENTIFICATION (2) ---------- */
   {
     id: 1,
     grade: 'Digital Values',
-    subject: 'Online Safety',
-    question: 'Your friends invite you to try a dangerous online challenge. They say, "Everyone is doing it!" What should you do?',
+    subject: 'Identification',
+    question: 'What was Kai using the information he found online for?',
     choices: {
-      a: 'Join because you do not want to be left out.',
-      b: 'Try it first and stop if something goes wrong.',
-      c: 'Think about the possible risks before deciding.',
-      d: 'Share it with others so they can try it too.'
+      a: 'A school project',
+      b: 'A social media post',
+      c: 'A video game',
+      d: 'A personal blog'
     },
-    correct: 'c'
+    correct: 'a'
   },
   {
     id: 2,
     grade: 'Digital Values',
-    subject: 'Digital Balance',
-    question: 'You have been playing games on your tablet all afternoon. You still need to eat dinner, take a bath, and finish your homework. What should you do?',
+    subject: 'Identification',
+    question: 'Which detail made Kai question whether the website was reliable?',
     choices: {
-      a: 'Take care of your responsibilities before returning to the game.',
-      b: 'Ask someone else to finish your homework.',
-      c: 'Continue playing until you finish your game.',
-      d: 'Skip dinner and your bath so you can finish everything faster.'
+      a: 'The website had colorful pictures.',
+      b: 'The website had large headings.',
+      c: 'The website did not clearly show the author\'s name.',
+      d: 'The website was easy to understand.'
     },
-    correct: 'a'
+    correct: 'c'
   },
+
+  /* ---------- APPLICATION (2) ---------- */
   {
     id: 3,
     grade: 'Digital Values',
-    subject: 'Smart Consumerism',
-    question: 'Many of your classmates are buying a new gadget because it is popular online. You already have one that works well. What should you consider before buying it?',
+    subject: 'Application',
+    question: 'You find a website with useful information for your school assignment, but it does not list an author or sources. What should you do?',
     choices: {
-      a: 'Whether everyone else has it.',
-      b: 'Whether the advertisement makes it look exciting.',
-      c: 'Whether your friends will think it is cool.',
-      d: 'Whether you actually need it and whether it fits your family\'s budget.'
+      a: 'Use the information immediately because the website looks professional.',
+      b: 'Check the website\'s details and compare the information with reliable sources.',
+      c: 'Share the website with your classmates and ask if they think it is true.',
+      d: 'Use the information as long as the pictures look accurate.'
     },
-    correct: 'd'
+    correct: 'b'
   },
   {
     id: 4,
     grade: 'Digital Values',
-    subject: 'Information Literacy',
-    question: 'You find a website with information for your school project, but you cannot find who wrote it or where the information came from. What should you do?',
+    subject: 'Application',
+    question: 'Your friend sends you an online article and asks you to share it. You notice that the article has no date and makes claims without showing evidence. What should you do?',
     choices: {
-      a: 'Use it because it appears on the internet.',
-      b: 'Look for information from reliable sources and compare the information.',
-      c: 'Use it because the website looks professional.',
-      d: 'Copy the information before the website disappears.'
+      a: 'Share it because your friend already checked it.',
+      b: 'Share only the parts that sound believable.',
+      c: 'Check the information using other trustworthy sources before sharing it.',
+      d: 'Ignore all online information from websites without pictures.'
     },
-    correct: 'b'
+    correct: 'c'
   },
+
+  /* ---------- COMPREHENSION (3) ---------- */
   {
     id: 5,
     grade: 'Digital Values',
-    subject: 'Time Management',
-    question: 'You are working on an assignment when your friend sends you a funny video. You want to watch it, but your assignment is due tomorrow. What is a responsible choice?',
+    subject: 'Comprehension',
+    question: 'What did Kai do after noticing that something seemed strange about the website?',
     choices: {
-      a: 'Finish your important work first, then enjoy some entertainment.',
-      b: 'Watch videos first and work on the assignment later.',
-      c: 'Ignore the assignment completely.',
-      d: 'Stay up all night playing and finish the assignment quickly in the morning.'
-    },
-    correct: 'a'
-  },
-  {
-    id: 6,
-    grade: 'Digital Values',
-    subject: 'Financial Responsibility',
-    question: 'You want to buy a pair of shoes you saw in an online advertisement. They are on sale, but your family is currently saving money for something important. What should you do?',
-    choices: {
-      a: 'Buy them because they are on sale.',
-      b: 'Ask your friends to convince your family.',
-      c: 'Buy them secretly so you do not miss the sale.',
-      d: 'Ask your parents or guardian and consider whether they are a need or a want.'
-    },
-    correct: 'd'
-  },
-  {
-    id: 7,
-    grade: 'Digital Values',
-    subject: 'Digital Organization',
-    question: 'Your computer has hundreds of downloaded files, pictures, and school assignments. You cannot find an important project. What would help prevent this problem?',
-    choices: {
-      a: 'Save everything on the desktop.',
-      b: 'Organize files into folders and use clear names.',
-      c: 'Delete files whenever you need space.',
-      d: 'Download another copy of every file.'
-    },
-    correct: 'b'
-  },
-  {
-    id: 8,
-    grade: 'Digital Values',
-    subject: 'Privacy & Safety',
-    question: 'Before posting a picture online, you notice that your school ID and location can be seen. A friend says, "Just post it. It\'s fine!" What should you do?',
-    choices: {
-      a: 'Post it because your friend said it is okay.',
-      b: 'Share it only with people you know online.',
-      c: 'Remove or hide the private information before posting.',
-      d: 'Add your address so people know where the picture was taken.'
+      a: 'He immediately closed the website.',
+      b: 'He copied the information before it disappeared.',
+      c: 'He checked the website address, author, date, and sources.',
+      d: 'He asked his classmates to decide whether the website was reliable.'
     },
     correct: 'c'
   },
   {
+    id: 6,
+    grade: 'Digital Values',
+    subject: 'Comprehension',
+    question: 'Why did Kai search for the same information on other websites?',
+    choices: {
+      a: 'To find a website with more colorful pictures.',
+      b: 'To compare the information and check whether the details were supported.',
+      c: 'To find the website with the shortest explanation.',
+      d: 'To avoid using any information from his first search.'
+    },
+    correct: 'b'
+  },
+  {
+    id: 7,
+    grade: 'Digital Values',
+    subject: 'Comprehension',
+    question: 'What helped Kai feel more confident about the information he used for his project?',
+    choices: {
+      a: 'The first website looked professional.',
+      b: 'The information was written using large headings.',
+      c: 'He checked the facts and compared them with reliable sources.',
+      d: 'He found several pictures related to the topic.'
+    },
+    correct: 'c'
+  },
+
+  /* ---------- ANALYSIS (3) ---------- */
+  {
+    id: 8,
+    grade: 'Digital Values',
+    subject: 'Analysis',
+    question: 'Why is a professional-looking website not enough to prove that its information is reliable?',
+    choices: {
+      a: 'Professional websites usually contain too much information.',
+      b: 'A website can look trustworthy while still containing claims that lack evidence or reliable sources.',
+      c: 'Colorful websites are designed mainly for entertainment.',
+      d: 'Websites with pictures cannot be used for school projects.'
+    },
+    correct: 'b'
+  },
+  {
     id: 9,
     grade: 'Digital Values',
-    subject: 'Responsible AI Use',
-    question: 'You are having trouble with a school assignment, so you ask an AI tool to make the entire answer for you. What would be a better way to use AI?',
+    subject: 'Analysis',
+    question: 'Kai finds two websites with different information about the same topic. One provides an author, publication date, references, and supporting evidence, while the other does not. Which source should Kai be more likely to trust, and why?',
     choices: {
-      a: 'Submit the AI\'s answer without reading it.',
-      b: 'Copy the answer and tell your teacher that you wrote it yourself.',
-      c: 'Ask AI to complete every assignment you receive.',
-      d: 'Use AI to help explain ideas, then do your own work and make sure you understand it.'
+      a: 'The second website, because it has simpler information.',
+      b: 'The first website, because it provides details that can help verify its information.',
+      c: 'The second website, because it does not include complicated references.',
+      d: 'Both websites equally, because information online is always reliable.'
     },
-    correct: 'd'
+    correct: 'b'
   },
   {
     id: 10,
     grade: 'Digital Values',
-    subject: 'Digital Citizenship',
-    question: 'You see a group chat where students are making fun of a classmate and sharing an embarrassing picture. What should you do?',
+    subject: 'Analysis',
+    question: 'Which approach best demonstrates what Kai learned from his experience?',
     choices: {
-      a: 'Avoid participating, report the harmful behavior, and tell a trusted adult.',
-      b: 'Share the picture with another group.',
-      c: 'Ignore it because it does not involve you.',
-      d: 'Join the jokes so you can be part of the group.'
+      a: 'Trust websites that look professional and use information that is easy to understand.',
+      b: 'Use the first search result because search engines have already checked the information.',
+      c: 'Check the URL, author, date, and sources, then compare the information with reliable sources before believing or sharing it.',
+      d: 'Avoid using online information completely because it cannot always be trusted.'
     },
-    correct: 'a'
+    correct: 'c'
   }
 ];
 
