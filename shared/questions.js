@@ -41,7 +41,7 @@ const QUIZ_QUESTIONS = [
     question: 'You found a website with useful information for your school assignment, but it does not list an author or source. What should you do?',
     choices: {
       a: 'Use the information immediately because the website looks professional.',
-      b: 'Check the website\'s details and compare the information with reliable sources.',
+      b: 'Check the website\'s details and compare with other sources with similar information.',
       c: 'Share the website with your classmates and ask if they think it is true.',
       d: 'Use the information as long as the pictures look accurate.'
     },
