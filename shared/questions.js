@@ -82,7 +82,7 @@ const QUIZ_QUESTIONS = [
     question: 'Why did Kai search for the same information on other websites?',
     choices: {
       a: 'To find a website with more colorful pictures.',
-      b: 'To compare the information and check whether the details were supported.',
+      b: 'To compare the information and check whether the details are supported.',
       c: 'To find the website with the shortest explanation.',
       d: 'To avoid using any information from his first search.'
     },
